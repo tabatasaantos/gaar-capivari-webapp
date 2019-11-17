@@ -9,33 +9,31 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
   styleUrls: ['./adote.component.css']
 })
 export class AdoteComponent implements OnInit {
-  form: FormGroup;
-  public sucesso: boolean=false;
-  public erro: boolean=false;
+  myForm: FormGroup;
+  public sucesso: boolean = false;
+  public erro: boolean = false;
   constructor(private formBuilder: FormBuilder, private http: HttpClient) { }
 
   ngOnInit() {
-    this.form = this.formBuilder.group({
+    this.myForm = this.formBuilder.group({
       email: ['', [Validators.email, Validators.required]],
       nome: ['', [Validators.required, Validators.minLength(2)]],
       mensagem: ['', [Validators.required, Validators.minLength(20), Validators.maxLength(480)]]
     })
   }
   enviar() {
-    this.sucesso=false;
-    this.erro=false;
-    if (this.form.valid) {
-      const adote = this.form.getRawValue() as Adote;
-      debugger;
-      console.log(adote);
-
+    this.sucesso = false;
+    this.erro = false;
+    if (this.myForm.valid) {
+      const adote = this.myForm.getRawValue() as Adote;
       this.enviarEmail(adote).subscribe(x => {
         console.log(x);
-        this.sucesso=true;
-        this.form.reset();
+        this.myForm.reset();
+        this.sucesso = true;
+        
       }, err => {
         console.log(err);
-        this.erro=true;
+        this.erro = true;
       });
     }
   }
