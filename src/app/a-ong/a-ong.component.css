@@ -1,0 +1,13 @@
+li {
+    list-style-type: none;
+}
+ul li:before {    
+    font-family: 'FontAwesome';
+    content: '\f00c';
+    margin:0 5px 0 -15px;
+    color:black;
+}
+.dropdownmenu ul, .dropdownmenu li {
+	margin: 10;
+	padding: 0;
+}
