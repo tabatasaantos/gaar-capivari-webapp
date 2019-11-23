@@ -1,11 +1,8 @@
-#team {
-    background: #ffffff !important;
-}
 
 .btn-primary:hover,
 .btn-primary:focus {
-    background-color: #e6f7ff;
-    border-color:  #e6f7ff;
+    background-color: red;
+    border-color:  red;
     box-shadow: none;
     outline: none;
 }
@@ -23,8 +20,9 @@ section .section-title {
 }
 
 #team .card {
-    border: none;
-    background: #d6f5f5;
+    border-radius: 3%;
+    background: rgb(140,178,198);
+background: linear-gradient(90deg, rgba(140,178,198,1) 0%, rgba(215,227,226,0.31416316526610644) 71%);
 }
 
 .image-flip:hover .backside,

@@ -1,6 +1,6 @@
 .bg-light {
-    background: rgb(196,182,133);
-    background: linear-gradient(90deg, rgba(196,182,133,0.7259278711484594) 18%, rgba(222,217,123,1) 87%);
+  background: rgb(255,255,255);
+  background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(236,234,230,0.5886729691876751) 67%);
 } 
 
 /* DA PRA MUDAR POR AQUI, DPEOIS EXPLICO, MAS ESSA CLASS bg-light é do proprio bootstrap, pré definida
@@ -20,10 +20,11 @@ PARA INFORMAR QUE POR MAIS QUE TENHA OUTRAS REFERENCIA EM OUTRO LUGAR É PRA CON
 html {
     scroll-behavior: smooth;
   }
+  #page-content {
+    flex: 1 0 auto;
+  }
   
-.pd0 {
-    padding-top: 0px;
-}
-.pd70{
-    padding-top: 70px;
-}
+  #sticky-footer {
+    flex-shrink: none;
+  }
+  
