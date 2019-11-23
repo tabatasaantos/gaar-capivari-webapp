@@ -10,6 +10,8 @@ import { ComoAjudarComponent } from './como-ajudar/como-ajudar.component';
 import { AOngComponent } from './a-ong/a-ong.component';
 import { AdoteComponent } from './adote/adote.component';
 import{HttpClientModule} from '@angular/common/http';
+import { ScrollSpyDirective } from './scroll-spy-directive';
+import { TesteComponent } from './teste/teste.component';
 
 
 @NgModule({
@@ -20,7 +22,18 @@ import{HttpClientModule} from '@angular/common/http';
     QuemSomosComponent,
     ComoAjudarComponent,
     AOngComponent,
-    AdoteComponent
+    AdoteComponent,
+    ScrollSpyDirective,
+    TesteComponent
+  ],
+  exports: [
+    InicioComponent,
+    ContatoComponent,
+    QuemSomosComponent,
+    ComoAjudarComponent,
+    AOngComponent,
+    AdoteComponent,
+    ScrollSpyDirective
   ],
   imports: [
     BrowserModule,

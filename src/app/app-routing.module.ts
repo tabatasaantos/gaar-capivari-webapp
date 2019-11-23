@@ -8,34 +8,34 @@ import { AOngComponent } from './a-ong/a-ong.component';
 import { AdoteComponent } from './adote/adote.component';
 
 const routes: Routes = [
-  {
-    path: '',
-    component: InicioComponent
-  },
-  {
-    path: 'inicio',
-    component: InicioComponent
-  },
-  {
-    path: 'contato',
-    component: ContatoComponent
-  },
-  {
-    path: 'quem-somos',
-    component: QuemSomosComponent
-  },
-  {
-    path: 'como-ajudar',
-    component: ComoAjudarComponent
-  },
-  {
-    path: 'a-ong',
-    component: AOngComponent
-  },
-  {
-    path: 'adote',
-    component: AdoteComponent
-  }
+  // {
+  //   path: '',
+  //   component: InicioComponent
+  // },
+  // {
+  //   path: 'inicio',
+  //   component: InicioComponent
+  // },
+  // {
+  //   path: 'contato',
+  //   component: ContatoComponent
+  // },
+  // {
+  //   path: 'quem-somos',
+  //   component: QuemSomosComponent
+  // },
+  // {
+  //   path: 'como-ajudar',
+  //   component: ComoAjudarComponent
+  // },
+  // {
+  //   path: 'a-ong',
+  //   component: AOngComponent
+  // },
+  // {
+  //   path: 'adote',
+  //   component: AdoteComponent
+  // }
 ];
 
 @NgModule({

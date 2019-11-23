@@ -1,5 +1,6 @@
 .bg-light {
-    background-color: #d6f5f5 !important;   
+    background: rgb(196,182,133);
+    background: linear-gradient(90deg, rgba(196,182,133,0.7259278711484594) 18%, rgba(222,217,123,1) 87%);
 } 
 
 /* DA PRA MUDAR POR AQUI, DPEOIS EXPLICO, MAS ESSA CLASS bg-light é do proprio bootstrap, pré definida
@@ -8,5 +9,21 @@ neste caso a gente está sobrepondo ela.. ente  */
 /* NESTE CASO A GENTE SOBREPOS A CLASSE E COLOCOU O !important;  
 PARA INFORMAR QUE POR MAIS QUE TENHA OUTRAS REFERENCIA EM OUTRO LUGAR É PRA CONSIDERAR ESTE */
 .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
-    color: #ff6600;
+    color: black;
+    font-weight: 600;
+}
+.navbar-light {
+    color: black;
+    font-weight: 600;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+  
+.pd0 {
+    padding-top: 0px;
+}
+.pd70{
+    padding-top: 70px;
 }
