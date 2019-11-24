@@ -21,8 +21,8 @@ section .section-title {
 
 #team .card {
     border-radius: 3%;
-    background: rgb(140,178,198);
-background: linear-gradient(90deg, rgba(140,178,198,1) 0%, rgba(215,227,226,0.31416316526610644) 71%);
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(236,234,230,0.5886729691876751) 67%);
 }
 
 .image-flip:hover .backside,
