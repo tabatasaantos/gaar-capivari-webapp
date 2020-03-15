@@ -7,6 +7,11 @@ ul li:before {
     margin:0 5px 0 -15px;
     color:black;
 }
+
+.padding-a-ong{
+    padding: 150px;
+}
+
 .dropdownmenu ul, .dropdownmenu li {
 	margin: 10;
 	padding: 0;
